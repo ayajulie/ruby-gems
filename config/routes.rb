@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'landing_pages/privacy_policy'
-  get 'static_pages/index'
+  root 'static_pages#landing_page'
+  get 'static_pages/privacy_policy'
+  get 'static_pages/landing_page'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
