@@ -37,9 +37,13 @@
 <div class="container">
   <h1>Hello From the landing page</h1>
   <div>
-    <%= link_to privacy_policy_path, class: "btn btn-warning text-white" do%>
-      <i class="far fa-address-book text-white"></i>
+    <%= link_to privacy_policy_path, class: "btn btn-warning text-dark" do%>
+      <i class="fab fa-gg-circle text-white"></i>
       Privacy Policy
     <% end %>
+    <%= link_to courses_path, class: "btn btn-info text-muted" do %>
+      <i class="far fa-address-book text-white"></i>
+      Courses
+    <% end  %>
   </div>
 </div>
