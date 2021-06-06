@@ -14,6 +14,6 @@ ActiveStorage.start()
 
 // to import boostrap 
 import 'bootstrap'
-
+import "@fortawesome/fontawesome-free/css/all"
 
 
